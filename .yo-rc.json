@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.sz",
+      "nativeLanguage": "ru"
+    },
+    "jhipsterVersion": "4.2.0",
+    "baseName": "microServiceApp",
+    "packageName": "com.sz",
+    "packageFolder": "com/sz",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "hibernateCache": "hazelcast",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSocialSignIn": false,
+    "jwtSecretKey": "9f800edaef34d16e9ea2c3dd54f30fefde8ba79f",
+    "enableTranslation": true,
+    "applicationType": "microservice",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "nativeLanguage": "ru",
+    "languages": [
+      "ru",
+      "en"
+    ],
+    "clientPackageManager": "yarn"
+  }
+}
